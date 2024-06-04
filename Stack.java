@@ -40,13 +40,20 @@ public class Stack {
 
 
         }
-        System.out.println("Stack:");
+    }
+    public void printStack(){
+            if (isEmpty()) {
+                System.out.println("stack is empty");
+                return;
+            }
+        System.out.print("Stack:");
         for (int i = top; i >=0; i--){
             System.out.println(array[i] + "");
-
         }
         System.out.println();
-    }
+
+        }
+
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-it package DataStructure;
+package DataStructure;
 
 public class palindrome {
     public static boolean isPalindrome(String str) {
@@ -14,6 +14,7 @@ public class palindrome {
         }
         return true;
     }
+
     public static void main(String[] args) {
         String string = "wow";
         if (isPalindrome(string)) {
